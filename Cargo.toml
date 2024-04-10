@@ -1,0 +1,11 @@
+[package]
+name = "loccount"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+colored = "2.1.0"
+serde = { version = "1.0.197", features = ["derive"], default-features = false }
+serde_json = { version = "1.0.115", features = ["alloc"], default-features = false }
